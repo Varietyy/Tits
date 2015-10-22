@@ -53,16 +53,16 @@ if (typeof fcs === "undefined") {
 				break;
 			}
 			$("#chat .chat-container .chat-main").append($(
-				'<li class="fcs-'+type+' user-55ffc26f1564a403003f527e">\
+				'<li class="fcs-'+type+' user-560f0b496280680300ece34d">\
 					<div class="stream-item-content">\
 						<div class="chatDelete" onclick="$(this).closest(\'li\').remove();"><span class="icon-close"></span></div>\
 						<div class="image_row">\
-							<img src="https://api.dubtrack.fm/user/55ffc26f1564a403003f527e/image" alt="wibla" onclick="Dubtrack.helpers.displayUser(\'55ffc26f1564a403003f527e\', this);" class="cursor-pointer" onerror="Dubtrack.helpers.image.imageError(this);">\
+							<img src="https://api.dubtrack.fm/user/560f0b496280680300ece34d/image" alt="wibla" onclick="Dubtrack.helpers.displayUser(\'560f0b496280680300ece34d\', this);" class="cursor-pointer" onerror="Dubtrack.helpers.image.imageError(this);">\
 						</div>\
 						<div class="activity-row">\
-							<div class="text"><p><a href="#" class="username">[FCS] </a>'+msg+'</p></div>\
+							<div class="text"><p><a href="#" class="username">♥ </a>'+msg+'</p></div>\
 							<div class="meta-info">\
-								<span class="username">WiBla </span>\
+								<span class="username">Chase N. Cashe </span>\
 								<i class="icon-dot"></i>\
 								<span class="timeinfo">\
 									<time class="timeago" datetime="undefined" title="Creator\'s website"><a target="_blank"href="http://wibla.free.fr/FCS/">http://wibla.free.fr</a></time>\
@@ -365,7 +365,7 @@ if (typeof fcs === "undefined") {
 		},
 		"reload": function() {
 			if (fcs.kill() === "done") {
-				setTimeout(function(){$.getScript("https://rawgit.com/WiBla/FCS/master/ressources/script.js");}, 1000);
+				setTimeout(function(){$.getScript("https://rawgit.com/Varietyy/Tits/master/script.js");}, 1000);
 			}
 		},
 		"kill": function() {
@@ -385,7 +385,7 @@ function init(kill) {
 		// Creating script's core elements
 		$("#header-global .user-info ul > li.user-messages").before(
 		$('<li id="fcs-logo">\
-				<button id="fcs-button">FCS</button>\
+				<button id="fcs-button">Mr. Steal Your Bitch</button>\
 				<ul id="fcs-menu" style="display: none;">\
 					<li class="off" id="autoVote">Auto-Vote</li>\
 					<li class="off" id="theme">Theme</li>\
@@ -541,7 +541,7 @@ function init(kill) {
 		$(".chat-main").off();
 		window.onbeforeunload = "";
 		// And finaly 
-		fcs.log("Aurevoir !", "log"); console.log("[FCS] Aurevoir !");
+		fcs.log("Script Reloading!", "log"); console.log("[FCS] Aurevoir !");
 		return true; // needed in case of reload
 	}
 }
