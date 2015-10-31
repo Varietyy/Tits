@@ -1,6 +1,6 @@
 if (typeof fcs === "undefined") {
 	var fcs = {
-		"version": "Fucked Yo Bitch",
+		"version": "1.0",
 		"menu_css": "https://rawgit.com/WiBla/FCS/master/ressources/menu.css",
 		"ranks_css": "https://rawgit.com/WiBla/FCS/master/ranks/ranks.css",
 		"theme_css": "https://rawgit.com/WiBla/FCS/master/ressources/blue.css",
@@ -385,7 +385,7 @@ function init(kill) {
 		// Creating script's core elements
 		$("#header-global .user-info ul > li.user-messages").before(
 		$('<li id="fcs-logo">\
-				<button id="fcs-button">Mr. Steal Your Bitch</button>\
+				<button id="fcs-button">Open For Tits!</button>\
 				<ul id="fcs-menu" style="display: none;">\
 					<li class="off" id="autoVote">Auto-Vote</li>\
 					<li class="off" id="theme">Theme</li>\
