@@ -525,7 +525,7 @@ function init(kill) {
 			else fcs.setVolume(fcs.getVolume() - 5);
 		});
 		$(".volume").on("mouseup, mousemove", function(){fcs.setVolume(fcs.getVolume());});
-		fcs.log(fcs.autoComplete("$version loaded !"), "log");
+		fcs.log(fcs.autoComplete("$version Loaded!"), "log");
 	} else {
 		// Saving settings
 		localStorage.setItem("fcs-settings", JSON.stringify(fcs.user.settings)); // Just in case something has gone wrong
