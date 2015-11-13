@@ -65,9 +65,9 @@ function userJoinMsg(data) {
 	API.sendChat("Welcome @" + data.user.username + "!");
 }
 
-/*function userLeaveMsg() {
-	API.sendChat("Goodbye @" + data.user.username + "!");
-}*/
+function userLeaveMsg() {
+	// API.sendChat("Goodbye @" + data.user.username + "!");
+}
 
 function commandHandler(data) {
 	var msg = data.message;
