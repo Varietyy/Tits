@@ -100,9 +100,9 @@ function commandHandler(data) {
 	}
 }
 
-function nextSongMsg() {
+/*function nextSongMsg() {
 	API.sendChat(":musical_note: Now playing: " + $(".currentSong").text() + "! DJ: " + API.getDJ() + ":musical_note:");
-}
+}*/
 
 function connectAPI() {
 	API.on(API.CHAT, commandHandler);
