@@ -88,8 +88,8 @@ function commandHandler(data) {
 				API.sendChat(":cookie: hands you a cookie (for @" + data.user.username + ") :cookie:");
 			}
 		}
-		if(msg === "!dj") {
-			API.sendChat("Current DJ: @" + API.getDJ() + "!");
+		if(msg === "!bops") {
+			API.sendChat(":sparkles: " + data.user.username + " just gave bops to @" + API.getDJ() + " :sparkles:");
 		}
 		if(msg === "!list") {
 			API.sendChat("Users 'found': " + IBot.Tools.getUsers());
