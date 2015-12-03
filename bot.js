@@ -87,7 +87,7 @@ if(!isIBotRunning) {
 	};
 
 	function userJoinMsg(data) {
-		API.sendChat(":wave: Welcome, @" + data.user.username + "! :wave:");
+		API.sendChat("Welcome, @" + data.user.username + "! :wave:");
 	}
 
 	function userLeaveMsg() {
@@ -101,7 +101,7 @@ if(!isIBotRunning) {
 	
 		if(msg.startsWith("!")) {
 			if(msg === "!help") {
-				API.sendChat(IBot.iBot + " user commands: !help, !cookie @user, !!dj, !song, !list, !bops");
+				API.sendChat(IBot.iBot + " user commands: !help, !cookie @user, !dj, !song, !list, !bops");
 			}
 			if(msg.startsWith("!cookie")) {
 				var UN = msg.substring(9);
