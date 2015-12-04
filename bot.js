@@ -118,11 +118,8 @@ if(!isIBotRunning) {
 			if(msg === "!dj") {
 				API.sendChat("Current DJ: @" + API.getDJ() + "!");
 			}
-			if(msg == "!song") {
-				API.sendChat("Current Song: " + API.getMedia() + "!");
-			}
-			if(msg === "bops") {
-			API.sendChat(":sparkles: " + data.user.username + " just gave bops to @" + API.getDJ() + " :sparkles:");
+			if(msg === "!bops") {
+			        API.sendChat(":sparkles: " + data.user.username + " just gave bops to @" + API.getDJ() + " :sparkles:");
 		        }
 			if(msg === "!list") {
 				API.sendChat("Users 'found': " + IBot.Tools.getUsers());
