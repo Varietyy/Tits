@@ -87,7 +87,7 @@ if(!isIBotRunning) {
 	};
 
 	function userJoinMsg(data) {
-		API.sendChat("Welcome, @" + data.user.username + "! :wave:");
+		API.sendChat("Merry Christmas, @" + data.user.username + " :snowman:");
 	}
 
 	function userLeaveMsg() {
