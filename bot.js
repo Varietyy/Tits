@@ -3,7 +3,7 @@ var isIBotRunning;
 if(!isIBotRunning) {
 	// Name and Version
 	var NAME = "2Bot";
-	var VERSION = "v1";
+	var VERSION = "v2";
 
 	// Plug.DJ Ported API for Dubtrack.FM
 	API = {
@@ -87,7 +87,7 @@ if(!isIBotRunning) {
 	};
 
 	function userJoinMsg(data) {
-		API.sendChat("Merry Christmas, @" + data.user.username + " :snowman:");
+		API.sendChat(":wave: @" + data.user.username + ".");
 	}
 
 	function userLeaveMsg() {
