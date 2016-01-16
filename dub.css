@@ -88,6 +88,14 @@
     padding-right: 2px;
 }
 
+#chat .chat-main .user-5648bfed46ea3d1e009be722 .username::before
+{
+    content:       url(https://nightbloo.github.io/plug/icons/bot.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 2px;
+}
+
 #chat .chat-main .user-560f0b496280680300ece34d .username::before{
     content:       url(http://i.imgur.com/CiOVTGG.png);
     position:      relative;
