@@ -11,15 +11,15 @@
 
 #main_avatar_room #main-user-list-room #avatar-list .userid-560f0b496280680300ece34d .dubs::before
 {
-	content:       "[The God]";
-	color:         #FFFFFF;
+	content:       "The God";
+	color:         #de0000;
 	padding-right: 10px;
 }
 
 #chat .chat-main .user-560f0b496280680300ece34d .username::after
 {
-    content:      "[The God]";
-    color:        #FFFFFF;
+    content:      "The God";
+    color:        #de0000;
     padding-left: 5px;
 }
 /* name colours */
@@ -48,7 +48,7 @@
 #chat .chat-main .isMod .username:hover,
 #chat .chat-main .isMod .username:visited
 {
-    color: #FF3558 !important;
+    color: #ffd700 !important;
 }
 #chat .chat-main .isVip .username,
 #chat .chat-main .isVip .username:hover,
@@ -91,7 +91,7 @@
 
 #chat .chat-main .isMod .username::before
 {
-    content:       url(http://i.imgur.com/PTO7dwy.png);
+    content:       url(http://i.imgur.com/69NWNGb.png);
     position:      relative;
     top:           4px;
     padding-right: 2px;
@@ -121,13 +121,13 @@
 }
 /* Chase */
 #chat .chat-main .user-560f0b496280680300ece34d .username::before{
-    content:       url(http://i.imgur.com/CiOVTGG.png);
+    content:       url(http://i.imgur.com/tmzh3ze.png);
     position:      relative;
     top:           4px;
     padding-right: 2px;
 }
-#chat .chat-main .user-56005297239f1303009c88c5 .username{
-    color: #4dc9ff !important;
+#chat .chat-main .user-560f0b496280680300ece34d .username{
+    color: #de0000 !important;
 }
 /* Mikey */
 #chat .chat-main .user-560063d6621a9e0300316cd3 .username::before{
