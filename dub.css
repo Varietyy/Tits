@@ -11,15 +11,15 @@
 
 #main_avatar_room #main-user-list-room #avatar-list .userid-560f0b496280680300ece34d .dubs::before
 {
-	content:       "The God";
-	color:         #00FF00;
+	content:       "[The God]";
+	color:         #FFFFFF;
 	padding-right: 10px;
 }
 
 #chat .chat-main .user-560f0b496280680300ece34d .username::after
 {
-    content:      "The God";
-    color:        #00FF00;
+    content:      "[The God]";
+    color:        #FFFFFF;
     padding-left: 5px;
 }
 /* name colours */
