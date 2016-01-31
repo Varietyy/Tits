@@ -12,14 +12,21 @@
 #main_avatar_room #main-user-list-room #avatar-list .userid-560f0b496280680300ece34d .dubs::before
 {
 	content:       "The God";
-	color:         #de0000;
+	color:         #b7b7b7;
 	padding-right: 10px;
 }
-
+/* chase */
 #chat .chat-main .user-560f0b496280680300ece34d .username::after
 {
     content:      "The God";
-    color:        #de0000;
+    color:        #b7b7b7;
+    padding-left: 5px;
+}
+/* guapo */
+#chat .chat-main .user-56005ae3239f1303009c8a5c .username::after
+{
+    content:      "The Don";
+    color:        #FE9900;
     padding-left: 5px;
 }
 /* name colours */
@@ -121,13 +128,13 @@
 }
 /* Chase */
 #chat .chat-main .user-560f0b496280680300ece34d .username::before{
-    content:       url(http://i.imgur.com/tmzh3ze.png);
+    content:       url(http://i.imgur.com/YndS7lT.png);
     position:      relative;
     top:           4px;
     padding-right: 2px;
 }
 #chat .chat-main .user-560f0b496280680300ece34d .username{
-    color: #de0000 !important;
+    color: #e535ff !important;
 }
 /* Mikey */
 #chat .chat-main .user-560063d6621a9e0300316cd3 .username::before{
