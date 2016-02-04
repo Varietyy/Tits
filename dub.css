@@ -22,6 +22,13 @@
     color:        #b7b7b7;
     padding-left: 5px;
 }
+/*Deeb*/
+#chat .chat-main .user-5600671d621a9e0300316d89 .username::after
+{
+    content:      "Trap God";
+    color:        #00ccff;
+    padding-left: 5px;
+}
 /* guapo */
 #chat .chat-main .user-56005ae3239f1303009c8a5c .username::after
 {
