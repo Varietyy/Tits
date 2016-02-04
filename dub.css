@@ -28,7 +28,14 @@
     content:      "Trap God";
     color:        #00ccff;
     padding-left: 5px;
+}/*bless_up*/
+#chat .chat-main .user-56006f8b239f1303009c8e5e .username::after
+{
+    content:      "The Plug";
+    color:        #66ff66;
+    padding-left: 5px;
 }
+
 /* guapo */
 #chat .chat-main .user-56005ae3239f1303009c8a5c .username::after
 {
