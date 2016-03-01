@@ -1,3 +1,96 @@
+/* Reload icon spin on hover */
+#main-room .left_section #main_player .player_sharing span.icon-reload {
+    transition: transform .5s cubic-bezier(0, 0, .33, 1.5);
+    -webkit-transition: -webkit-transform .5s cubic-bezier(0, 0, .33, 1.5);
+}
+#main-room .left_section #main_player .player_sharing span.icon-reload:hover {
+    transition: transform .5s cubic-bezier(0.42, 1.2, 1, 1);
+    -webkit-transition: -webkit-transform .5s cubic-bezier(0.42, 1.2, 1, 1);
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+/* Share buttons coloring on hover */
+.icon-facebook, .icon-twitter { transition: color .25s linear; }
+a.facebook:hover, a.facebook:focus, .icon-facebook:hover { color: #3a5795; }
+a.twitter:hover, a.twitter:focus, .icon-twitter:hover { color: #55acee; }
+
+/* Volume full icon shaking on appear */
+@-moz-keyframes shaking {
+    0% { -moz-transform: translate(-1px); }
+    100% { -moz-transform: translate(1px); }
+}
+@-webkit-keyframes shaking {
+    0% { -webkit-transform: translate(-1px); }
+    100% { -webkit-transform: translate(1px); }
+}
+@keyframes shaking {
+    0% { transform: translate(-2px); }
+    33.33% { transform: translate(1px); }
+    66.66% { transform: translate(-1px); }
+    100% { transform: translate(2px); }
+}
+#main_player .player_sharing .mute .icon-sound-alt {
+    -moz-animation: shaking .125s 5 linear;
+    -webkit-animation: shaking .125s 5 linear;
+    animation: shaking .125s 5 linear;
+}
+
+/* HD toggle glow effect on hover */
+#main-room .left_section #main_player .player_sharing .videoquality-el { transition: text-shadow, color; transition-duration: .25s; }
+#main-room .left_section #main_player .player_sharing .videoquality-el.active-hd { text-shadow: 0 0 5px white; }
+#main-room .left_section #main_player .player_sharing .videoquality-el:hover { text-shadow: 0 0 5px #BBBBBB; }
+
+/* Progress Bar smooth transition */
+body:not(.no-song-playing) #player-controller .left ul li.infoContainer .infoContainerInner .progressBg { transition: width 1s; transition-timing-function: linear; }
+
+/* Room List song scrolling marquee effect */
+@-moz-keyframes room-song_span-scroll {
+    0% { right: -100%; }
+    100% { right: 150%; }
+}
+@-webkit-keyframes room-song_span-scroll {
+    0% { right: -100%; }
+    100% { right: 150%; }
+}
+@keyframes room-song_span-scroll {
+    0% { right: -100%; }
+    100% { right: 150%; }
+}
+#room-list #container-room-list .room-item header { background: #1c1c1c; }
+#room-list #container-room-list .room-item .current-song {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    text-overflow: ellipsis;
+}
+#room-list #container-room-list .room-item::after {
+    content: ".";
+    position: relative;
+    display: block;
+    padding: .5rem 1rem;
+    background: #2f2f2f;
+    font-size: .85rem;
+    color: transparent;
+    z-index: 0;
+}
+#room-list #container-room-list .room-item:hover .current-song {
+    display: table;
+    animation: room-song_span-scroll 8s linear;
+    animation-iteration-count: infinite;
+}
+
+/* Filled Add to Playlist button (Chrome, Opera or any browser supporting webkit only) */
+#player-controller .right ul li .add-to-playlist-button:hover .icon-heart::before { -webkit-text-stroke: none; -webkit-text-fill-color: initial; }
+#player-controller .right ul li .add-to-playlist-button.grabbed .icon-heart::before { -webkit-text-stroke: none; -webkit-text-fill-color: #b3e790 }
+#player-controller .right ul li .add-to-playlist-button:hover .icon-heart::before { transition: text-shadow .25s linear, -webkit-text-fill-color .15s linear; text-shadow: 0 0 1rem #b3e790; }
+#player-controller .right ul li .add-to-playlist-button .icon-heart::before { -webkit-text-stroke: 2px #b3e790; -webkit-text-fill-color: transparent; }
+
+/* Soundcloud redirect icon fading */
+#room-main-player-container-soundcloud .playerElement.soundcloud .redirect-link { opacity: 0; transition: opacity .1s linear; }
+#room-main-player-container-soundcloud:hover .playerElement.soundcloud .redirect-link { opacity: .75; }
+#room-main-player-container-soundcloud:hover .playerElement.soundcloud .redirect-link:hover { opacity: 1; }
+
 /* USERLIST: User Votes */
 
 #main_avatar_room #main-user-list-room #avatar-list .username::before
