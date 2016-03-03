@@ -12,3 +12,7 @@ Commands For Chase's Bot :)
 |!toke | Special command. |
 |!beer | Special comand. |
 |!head | Type at your own risk. |
+|!skrr | Posts pictures of random girls. (Most NSFW) |
+|!relatable | Responds with a relatable joke. |
+|!creator | Responds telling you who created/runs the bot. |
+
